@@ -345,24 +345,24 @@ VGI_Spells = {
 			isChanneled = "false",
 			},
 	},
-	[ "Eye of C'Thun" ] = {
-		[ "" ] = {
+	-- [ "Eye of C'Thun" ] = {
+	-- 	[ "" ] = {
 
-			duration = 2,
-			icon = "",
-			requiresLossOfControl = "false",
-			isChanneled = "false",
-			},
-	},
-	[ "Eye Tentacle" ] = {
-		[ "Mind Flay" ] = {
+	-- 		duration = 2,
+	-- 		icon = "",
+	-- 		requiresLossOfControl = "false",
+	-- 		isChanneled = "false",
+	-- 		},
+	-- },
+	-- [ "Eye Tentacle" ] = {
+	-- 	[ "Mind Flay" ] = {
 
-			duration = 2,
-			icon = "",
-			requiresLossOfControl = "false",
-			isChanneled = "false",
-			},
-	},
+	-- 		duration = 2,
+	-- 		icon = "",
+	-- 		requiresLossOfControl = "false",
+	-- 		isChanneled = "false",
+	-- 		},
+	-- },
 	[ "Fel Lash" ] = {
 		[ "Arcane Explosion" ] = {
 
@@ -1506,15 +1506,6 @@ VGI_Spells = {
 			isChanneled = "false",
 			},
 	},
-	[ "Stitched Spewer" ] = {
-		[ "Slime Bolt" ] = {
-
-			duration = 2,
-			icon = "",
-			requiresLossOfControl = "false",
-			isChanneled = "false",
-			},
-	},
 	[ "Stonelash Pincer" ] = {
 		[ "" ] = {
 
@@ -1962,22 +1953,22 @@ VGI_Spells = {
 			isChanneled = false,
 		},
 	},
-	-- [ "Eye Tentacle" ] = {
-	-- 	[ "Mind Flay" ] = {
-	-- 		duration = 3,
-	-- 		icon = "Spell_Shadow_SiphonMana",
-	-- 		requiresLossOfControl = false,
-	-- 		isChanneled = true,
-	-- 	},
-	-- },
-	-- [ "Giant Eye Tentacle" ] = {
-	-- 	[ "Eye Beam" ] = {
-	-- 		duration = 2,
-	-- 		icon = "Spell_Nature_CallStorm",
-	-- 		requiresLossOfControl = false,
-	-- 		isChanneled = false,
-	-- 	},
-	-- },
+	[ "Eye Tentacle" ] = {
+		[ "Mind Flay" ] = {
+			duration = 3,
+			icon = "Spell_Shadow_SiphonMana",
+			requiresLossOfControl = false,
+			isChanneled = true,
+		},
+	},
+	[ "Giant Eye Tentacle" ] = {
+		[ "Eye Beam" ] = {
+			duration = 2,
+			icon = "Spell_Nature_CallStorm",
+			requiresLossOfControl = false,
+			isChanneled = false,
+		},
+	},
 	------------------------------------------------ Naxxramas
 	[ "Anub'rekhan" ] = {
 		[ "Locust Swarm" ] = {
@@ -2011,14 +2002,14 @@ VGI_Spells = {
 			isChanneled = false,
 		},
 	},
-	-- [ "Stitched Spewer" ] = {
-	-- 	[ "Slime Bolt" ] = {
-	-- 		duration = 2.5,
-	-- 		icon = "Spell_Nature_CorrosiveBreath",
-	-- 		requiresLossOfControl = true,
-	-- 		isChanneled = false,
-	-- 	},
-	-- },
+	[ "Stitched Spewer" ] = {
+		[ "Slime Bolt" ] = {
+			duration = 2.5,
+			icon = "Spell_Nature_CorrosiveBreath",
+			requiresLossOfControl = true,
+			isChanneled = true,
+		},
+	},
 	[ "Necro Knight Guardian" ] = {
 		[ "Arcane Explosion" ] = {
 			duration = 1.5,
@@ -2047,14 +2038,14 @@ VGI_Spells = {
 			isChanneled = false,
 		},
 	},
-	[ "Thaddius" ] = {
-		[ "Polarity Shift" ] = {
-			duration = 3,
-			icon = "Spell_Nature_Lightning",
-			requiresLossOfControl = true,
-			isChanneled = false,
-		},
-	},
+	-- [ "Thaddius" ] = {
+	-- 	[ "Polarity Shift" ] = {
+	-- 		duration = 3,
+	-- 		icon = "Spell_Nature_Lightning",
+	-- 		requiresLossOfControl = true,
+	-- 		isChanneled = false,
+	-- 	},
+	-- },
 	[ "Kel'Thuzad" ] = {
 		[ "Frostbolt" ] = {
 			duration = 2,

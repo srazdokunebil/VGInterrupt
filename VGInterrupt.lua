@@ -375,6 +375,7 @@ function VGI_OnEvent()
 	-- 	end
 
 	elseif ( event == "CHAT_MSG_SPELL_CREATURE_VS_CREATURE_BUFF" or event == "CHAT_MSG_SPELL_CREATURE_VS_CREATURE_DAMAGE" ) then
+		--print("NK starting to cast: "..tostring("arse"))
 		-- A mob has started casting an ability that needs to be interrupted.
 		for mobName, spellName in string.gfind( arg1, "(.+) begins to cast (.+)." ) do
 			if ( VGI_Spells[ mobName ] ~= nil and VGI_Spells[ mobName ][ spellName ] ~= nil ) then
@@ -393,9 +394,9 @@ function VGI_OnEvent()
 			end
 		end
 
-	elseif ( event == "CHAT_MSG_SPELL_CREATURE_VS_CREATURE_BUFF" or event == "CHAT_MSG_SPELL_CREATURE_VS_CREATURE_DAMAGE" ) then
 		-- A mob has started casting an ability that needs to be interrupted.
 		for mobName, spellName in string.gfind( arg1, "(.+) begins to perform (.+)." ) do
+			--print("SS starting to cast: "..tostring("arse"))
 			if ( VGI_Spells[ mobName ] ~= nil and VGI_Spells[ mobName ][ spellName ] ~= nil ) then
 				VGI_castAdd( mobName, spellName );
 				-- The following mobs spawn and start casting spells immediately, so we can't wait for them to be targets before catching their casts
@@ -411,6 +412,31 @@ function VGI_OnEvent()
 				end
 			end
 		end
+
+	-- elseif ( event == "CHAT_MSG_SPELL_CREATURE_VS_CREATURE_DAMAGE" ) then
+	-- 	print("poot")
+
+	-- elseif ( event == "CHAT_MSG_SPELL_CREATURE_VS_CREATURE_BUFF" or event == "CHAT_MSG_SPELL_CREATURE_VS_CREATURE_DAMAGE" ) then
+	-- --elseif event then
+		
+	-- 	-- A mob has started casting an ability that needs to be interrupted.
+	-- 	for mobName, spellName in string.gfind( arg1, "(.+) begins to perform (.+)." ) do
+	-- 		print("SS starting to cast: "..tostring("arse"))
+	-- 		if ( VGI_Spells[ mobName ] ~= nil and VGI_Spells[ mobName ][ spellName ] ~= nil ) then
+	-- 			VGI_castAdd( mobName, spellName );
+	-- 			-- The following mobs spawn and start casting spells immediately, so we can't wait for them to be targets before catching their casts
+	-- 			if ( mobName == "Giant Eye Tentacle" or mobName == "Eye Tentacle" or mobName == "The Prophet Skeram" ) then
+	-- 				handleSpellCast( "0", mobName, spellName );
+	-- 			elseif UnitExists( "target" ) then
+	-- 				-- It may be your target casting the spell.
+	-- 				local targetRaidIconIndex = GetRaidTargetIndex( "target" ) or "0";
+	-- 				local targetName = UnitName( "target" ) or "";
+	-- 				if ( mobName == targetName ) then
+	-- 					handleSpellCast( targetRaidIconIndex, targetName, spellName );
+	-- 				end
+	-- 			end
+	-- 		end
+	-- 	end
 
 	elseif ( event == "CHAT_MSG_ADDON" and arg1 == "VGI_Interrupted" ) then
 		-- Someone has interrupted a valid mob target.
