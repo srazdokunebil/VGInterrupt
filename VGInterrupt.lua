@@ -142,7 +142,7 @@ function VGI_Interrupt(unitName, spellName)
 		elseif ( isZerkerStance ) then
 			CastSpellByName( "Pummel" );
 		else
-			CastSpellByName( "Berserker Stance" );
+			--CastSpellByName( "Berserker Stance" );
 		end
 	elseif ( playerClass == "ROGUE" ) then
 		CastSpellByName( "Kick" );
