@@ -62,14 +62,14 @@ VGI_RaidIconNames = {
 	[ 8 ] = "SKULL",
 };
 
-VGI_PATTERN_SHIELDBASH = "(.*)Shield Bash(.*)";
+VGI_PATTERN_SHIELDBASH = "Your Shield Bash(.*)";
 VGI_PATTERN_SHIELDBASH_SUCCESS = "Your Shield Bash [hcr]+its";
-VGI_PATTERN_PUMMEL = "(.*)Pummel(.*)";
+VGI_PATTERN_PUMMEL = "Your Pummel(.*)";
 VGI_PATTERN_PUMMEL_SUCCESS = "Your Pummel [hcr]+its";
-VGI_PATTERN_KICK = "(.*)Kick(.*)";
+VGI_PATTERN_KICK = "Your Kick(.*)";
 VGI_PATTERN_KICK_SUCCESS = "Your Kick [hcr]+its";
 VGI_PATTERN_COUNTERSPELL_SUCCESS = "You interrupt";
-VGI_PATTERN_EARTHSHOCK = "(.*)Earth Shock(.*)";
+VGI_PATTERN_EARTHSHOCK = "Your Earth Shock(.*)";
 VGI_PATTERN_EARTHSHOCK_SUCCESS = "Your Earth Shock [hcr]+its";
 
 VGI_PATTERN_HAMMEROFJUSTICE_SUCCESS = "(.*) is afflicted by Hammer of Justice.";
@@ -132,9 +132,10 @@ function VGI_Interrupt(unitName, spellName)
 		if ( VGI_TooltipTextRight3:IsVisible() and VGI_TooltipTextRight3:GetText() == "Shield" or VGI_TooltipTextRight4:IsVisible() and VGI_TooltipTextRight4:GetText() == "Shield" ) then
 			hasShield = true;
 		end
-		_, _, isBattleStance = GetShapeshiftFormInfo(1); 
+		_, _, isBattleStance = GetShapeshiftFormInfo(1);
 		_, _, isDefStance = GetShapeshiftFormInfo(2);
 		_, _, isZerkerStance = GetShapeshiftFormInfo(3);
+
 		if ( isBattleStance and hasShield ) then
 			CastSpellByName( "Shield Bash" );
 		elseif ( isDefStance and hasShield ) then
@@ -153,26 +154,10 @@ function VGI_Interrupt(unitName, spellName)
 		SpellStopCasting()
 		CastSpellByName( "Earth Shock" );
 	elseif ( playerClass == "PALADIN" ) then
-		--local unitName = "ph"
-		--local spellName = "ph"
 		if vr.api.IsSpellReady("Hammer of Justice") then
 			SpellStopCasting()
-			CastSpellByName( "Hammer of Justice" )
-
-			-- if GOg("AnnounceActions")  then
-			-- 	if string.find(spellName, "invalid") then
-			-- 		vr.log.Report("VGHoJinvalid", "HoJ attempt to interrupt " .. unitName .. " from casting!", 2000);
-			-- 	else
-			-- 		vr.log.Report("VGHoJ", "HoJ attempt to interrupt " .. unitName .. " from casting " .. spellName .. "!", 2000);
-			-- 	end
-			-- else
-			-- 	if string.find(spellName, "invalid") then
-			-- 		vr.log.LogThrottle("VGHoJLoginvalid", "HoJ attempt to interrupt " .. unitName .. " from casting!", 2000);
-			-- 	else
-			-- 		vr.log.LogThrottle("VGHoJLog", "HoJ attempt to interrupt " .. unitName .. " from casting " .. spellName .. "!", 2000);
-			-- 	end
-			-- end
-
+			--print("IMMA CHARGIN MAH LAZOR")
+			vr.pal.HammerOfJusticeSmartCast(vr.api.GetSpellMaxRank("Hammer of Justice"), "VGI", "target", true)
 		end
 
 	end
@@ -376,8 +361,10 @@ function VGI_OnEvent()
 					-- Hammer of Justice was successful.
 					if ( GetNumRaidMembers() == 0 and GetNumPartyMembers() == 0 ) then handleSpellEnd( targetRaidIconIndex, targetName );
 					else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
-					
-					if GOg("AnnounceActions") then
+
+					if GOg("AnnounceActions") 
+					and vr.pal.lastHammerOfJusticeCast
+					then
 						vr.log.Say("Hammer of Justice interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
 						vr.log.Log("Hammer of Justice interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
 					else
