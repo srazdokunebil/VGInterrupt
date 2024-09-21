@@ -442,15 +442,6 @@ VGI_Spells = {
 			isChanneled = "false",
 			},
 	},
-	[ "Giant Eye Tentacle" ] = {
-		[ "Eye Beam" ] = {
-
-			duration = 2,
-			icon = "",
-			requiresLossOfControl = "false",
-			isChanneled = "false",
-			},
-	},
 	[ "Golemagg the Incinerator" ] = {
 		[ "" ] = {
 

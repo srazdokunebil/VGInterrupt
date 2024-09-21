@@ -1,12 +1,14 @@
 VGI_Spells = {
 	[ "Alzzin the Wildshaper" ] = {
-		[ "Wild Regeneration" ] = {
+		[ "Wild Regeneration" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Wither" ] = {
+		[ "Wither" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -14,7 +16,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Ancient Core Hound" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -22,7 +25,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Anub'rekhan" ] = {
-		[ "Locust Swarm" ] = {
+		[ "Locust Swarm" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -30,7 +34,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Anvilrage Guardsman" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -38,7 +43,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Atal'ai Mistress" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -46,7 +52,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Baron Geddon" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -54,7 +61,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Baron Rivendare" ] = {
-		[ "Shadow Bolt" ] = {
+		[ "Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -62,13 +70,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Baroness Anastari" ] = {
-		[ "Banshee Wail" ] = {
+		[ "Banshee Wail" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Silence" ] = {
+		[ "Silence" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -76,13 +86,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Bile Retcher" ] = {
-		[ "Bile Vomit" ] = {
+		[ "Bile Vomit" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Retching Plague" ] = {
+		[ "Retching Plague" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -90,7 +102,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Black Dragonspawn" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -98,7 +111,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Black Guard Sentry" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -106,7 +120,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Blackwing Spellbinder" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -114,7 +129,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Blackwing Taskmaster" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -122,7 +138,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Bloodpetal Trapper" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -130,7 +147,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Bloodlord Mandokir" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -138,7 +156,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Blood Steward of Kirtonos" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -146,31 +165,36 @@ VGI_Spells = {
 			},
 	},
 	[ "Cho'Rush the Observer" ] = {
-		[ "Arcane Explosion" ] = {
+		[ "Arcane Explosion" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Chain Lightning" ] = {
+		[ "Chain Lightning" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Fireball" ] = {
+		[ "Fireball" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Healing Wave" ] = {
+		[ "Healing Wave" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Lightning Bolt" ] = {
+		[ "Lightning Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -178,7 +202,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Core Hound" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -186,7 +211,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Crimson Battle Mage" ] = {
-		[ "Blast Wave" ] = {
+		[ "Blast Wave" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -194,7 +220,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Crimson Priest" ] = {
-		[ "Heal" ] = {
+		[ "Heal" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -202,7 +229,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Crypt Beast" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -210,7 +238,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Crypt Crawler" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -218,13 +247,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Darkmaster Gandling" ] = {
-		[ "Curse of the Darkmaster" ] = {
+		[ "Curse of the Darkmaster" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Arcane Missiles" ] = {
+		[ "Arcane Missiles" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -232,7 +263,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Deadwood Gardener" ] = {
-		[ "Healing Wave" ] = {
+		[ "Healing Wave" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -240,7 +272,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Death Talon Hatcher" ] = {
-		[ "Flamestrike" ] = {
+		[ "Flamestrike" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -248,7 +281,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Death Talon Wyrmkin" ] = {
-		[ "Fireball Volley" ] = {
+		[ "Fireball Volley" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -256,7 +290,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Diemetradon" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -264,7 +299,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Diseased Ghoul" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -272,7 +308,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Doctor Theolen Krastinov" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -280,7 +317,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Doomguard Minion" ] = {
-		[ "Rain of Fire" ] = {
+		[ "Rain of Fire" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -288,7 +326,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Dredge Crusher" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -296,7 +335,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Dust Stormer" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -304,7 +344,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Elder Diemetradon" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -312,7 +353,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Eye of C'Thun" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -320,21 +362,24 @@ VGI_Spells = {
 			},
 	},
 	[ "Eye Tentacle" ] = {
-		[ "Mind Flay" ] = {
+		[ "Mind Flay" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
-			isChanneled = "false",
+			isChanneled = "true",
 			},
 	},
 	[ "Fel Lash" ] = {
-		[ "Arcane Explosion" ] = {
+		[ "Arcane Explosion" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Arcane Bolt" ] = {
+		[ "Arcane Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -342,7 +387,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Flamewaker Elite" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -350,7 +396,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Flamewaker Healer" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -358,7 +405,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Flamewaker Priest" ] = {
-		[ "Dark Mending" ] = {
+		[ "Dark Mending" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -366,7 +414,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Flamewaker Protector" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -374,7 +423,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Garr" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -382,7 +432,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Gehennas" ] = {
-		[ "Rain of Fire" ] = {
+		[ "Rain of Fire" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -390,7 +441,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Ghoul Ravener" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -398,7 +450,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Giant Eye Tentacle" ] = {
-		[ "Eye Beam" ] = {
+		[ "Eye Beam" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -406,7 +459,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Golemagg the Incinerator" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -414,7 +468,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Gordok Brute" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -422,7 +477,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Gordok Captain" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -430,7 +486,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Gordok Enforcer" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -438,19 +495,22 @@ VGI_Spells = {
 			},
 	},
 	[ "Gordok Mage-Lord" ] = {
-		[ "Fireball" ] = {
+		[ "Fireball" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Flamestrike" ] = {
+		[ "Flamestrike" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Frostbolt" ] = {
+		[ "Frostbolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -458,7 +518,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Gordok Mauler" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -466,7 +527,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Gordok Ogre-Mage" ] = {
-		[ "Fireball" ] = {
+		[ "Fireball" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -474,7 +536,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Gordok Reaver" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -482,13 +545,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Gordok Warlock" ] = {
-		[ "Immolate" ] = {
+		[ "Immolate" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Shadow Bolt" ] = {
+		[ "Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -496,7 +561,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Gordunni Mage-Lord" ] = {
-		[ "Fireball" ] = {
+		[ "Fireball" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -504,7 +570,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Gordunni Warlock" ] = {
-		[ "Shadow Bolt" ] = {
+		[ "Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -512,7 +579,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Grellkin Shadow Weaver" ] = {
-		[ "Drain Mana" ] = {
+		[ "Drain Mana" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -520,7 +588,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Guard Fergus" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -528,7 +597,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Guard Mol'dar" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -536,7 +606,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Guard Slip'kik" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -544,7 +615,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Gurubashi Axe Thrower" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -552,7 +624,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Gurubashi Bat Rider" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -560,7 +633,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Hakkari Blood Priest" ] = {
-		[ "Drain Life" ] = {
+		[ "Drain Life" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -568,7 +642,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Hakkari Priest" ] = {
-		[ "Heal" ] = {
+		[ "Heal" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -576,13 +651,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Hakkari Shadowcaster" ] = {
-		[ "Shadow Bolt" ] = {
+		[ "Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Mana Burn" ] = {
+		[ "Mana Burn" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -590,7 +667,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Hakkari Witch Doctor" ] = {
-		[ "Shrink" ] = {
+		[ "Shrink" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -598,7 +676,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Hateforge Cleric" ] = {
-		[ "Greater Heal" ] = {
+		[ "Greater Heal" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -606,7 +685,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Hateforge Craftsman" ] = {
-		[ "Greater Heal" ] = {
+		[ "Greater Heal" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -614,7 +694,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Hateforge Miner" ] = {
-		[ "Immolate" ] = {
+		[ "Immolate" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -622,7 +703,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Hateforge Taskmaster" ] = {
-		[ "Immolate" ] = {
+		[ "Immolate" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -630,7 +712,8 @@ VGI_Spells = {
 			},
 	},
 	[ "High Priestess Arlokk" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -638,19 +721,22 @@ VGI_Spells = {
 			},
 	},
 	[ "High Priestess Jeklik" ] = {
-		[ "Great Heal" ] = {
+		[ "Great Heal" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "placeholder" ] = {
+		[ "placeholder" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "placeholder" ] = {
+		[ "placeholder" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -658,7 +744,8 @@ VGI_Spells = {
 			},
 	},
 	[ "High Priestess Mar'li" ] = {
-		[ "Drain Life" ] = {
+		[ "Drain Life" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -666,19 +753,22 @@ VGI_Spells = {
 			},
 	},
 	[ "High Priest Venoxis" ] = {
-		[ "Holy Fire" ] = {
+		[ "Holy Fire" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "placeholder" ] = {
+		[ "placeholder" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "placeholder" ] = {
+		[ "placeholder" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -686,7 +776,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Hive'Ashi Defender" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -694,7 +785,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Hive'Ashi Defender" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -702,7 +794,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Hive'Regal Spitfire" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -710,7 +803,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Hydrospawn" ] = {
-		[ "Massive Geyser" ] = {
+		[ "Massive Geyser" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -718,7 +812,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Instructor Malicia" ] = {
-		[ "Renew" ] = {
+		[ "Renew" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -726,7 +821,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Jaedenar Darkweaver" ] = {
-		[ "Shadow Bolt" ] = {
+		[ "Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -734,7 +830,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Jaedenar Warlock" ] = {
-		[ "Shadow Bolt" ] = {
+		[ "Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -742,19 +839,22 @@ VGI_Spells = {
 			},
 	},
 	[ "Lady Illucia Barov" ] = {
-		[ "Fear" ] = {
+		[ "Fear" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Shadow Shock" ] = {
+		[ "Shadow Shock" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Silence" ] = {
+		[ "Silence" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -762,7 +862,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Lava Spawn" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -770,19 +871,22 @@ VGI_Spells = {
 			},
 	},
 	[ "Lethtendris" ] = {
-		[ "Curse of Thorns" ] = {
+		[ "Curse of Thorns" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Enlarge" ] = {
+		[ "Enlarge" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Void Bolt" ] = {
+		[ "Void Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -790,7 +894,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Living Blaze" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -798,7 +903,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Lord Alexei Barov" ] = {
-		[ "Veil of Shadow" ] = {
+		[ "Veil of Shadow" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -806,13 +912,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Lorekeeper Polkelt" ] = {
-		[ "Volatile Infection" ] = {
+		[ "Volatile Infection" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Corrosive Acid" ] = {
+		[ "Corrosive Acid" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -820,7 +928,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Lor'Khan" ] = {
-		[ "Great Heal" ] = {
+		[ "Great Heal" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -828,7 +937,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Lucifron" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -836,7 +946,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Lurking Jungle Creeper" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -844,7 +955,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Kel'Thuzad" ] = {
-		[ "Frostbolt" ] = {
+		[ "Frostbolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -852,13 +964,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Mad Servant" ] = {
-		[ "Flamestrike" ] = {
+		[ "Flamestrike" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Fireball" ] = {
+		[ "Fireball" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -866,7 +980,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Mad Scientist" ] = {
-		[ "Great Heal" ] = {
+		[ "Great Heal" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -874,7 +989,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Magmadar" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -882,7 +998,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Majordomo Executus" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -890,19 +1007,22 @@ VGI_Spells = {
 			},
 	},
 	[ "Maleki the Pallid" ] = {
-		[ "Drain Life" ] = {
+		[ "Drain Life" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Frostbolt" ] = {
+		[ "Frostbolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "placeholder" ] = {
+		[ "placeholder" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -910,19 +1030,22 @@ VGI_Spells = {
 			},
 	},
 	[ "Mistress Natalia Mar'alith" ] = {
-		[ "Mind Flay" ] = {
+		[ "Mind Flay" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Dominate Mind" ] = {
+		[ "Dominate Mind" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Greater Heal" ] = {
+		[ "Greater Heal" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -930,7 +1053,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Molten Giant" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -938,19 +1062,22 @@ VGI_Spells = {
 			},
 	},
 	[ "Mor Grayhoof" ] = {
-		[ "Healing Touch" ] = {
+		[ "Healing Touch" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ " Chain Lightning" ] = {
+		[ " Chain Lightning" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ " Hurricane" ] = {
+		[ " Hurricane" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -958,7 +1085,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Necro Knight" ] = {
-		[ "Arcane Explosion" ] = {
+		[ "Arcane Explosion" ] = {
+
+			duration = 2,
+			icon = "",
+			requiresLossOfControl = "false",
+			isChanneled = "false",
+			},
+		[ "Flamestrike" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -966,7 +1101,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Necro Knight Guardian" ] = {
-		[ "Arcane Explosion" ] = {
+		[ "Arcane Explosion" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -974,7 +1110,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Nerub'enkan" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -982,7 +1119,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Obsidian Eradicator" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -990,7 +1128,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Onyxia" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -998,7 +1137,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Pimgib" ] = {
-		[ "Fireball" ] = {
+		[ "Fireball" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1006,7 +1146,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Patchwork Golem" ] = {
-		[ "Cleave" ] = {
+		[ "Cleave" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1014,7 +1155,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Plague Ghoul" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1022,7 +1164,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Plagued Guardian" ] = {
-		[ "Arcane Explosion" ] = {
+		[ "Arcane Explosion" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1030,7 +1173,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Plaguehound" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1038,7 +1182,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Plated Stegodon" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1046,7 +1191,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Plagued Hatchling" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1054,7 +1200,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Qiraji Swarmguard" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1062,7 +1209,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Ragnaros" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1070,7 +1218,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Ramstein the Gorger" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1078,19 +1227,22 @@ VGI_Spells = {
 			},
 	},
 	[ "Ras Frostwhisper" ] = {
-		[ "Frostbolt Volley" ] = {
+		[ "Frostbolt Volley" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ " Fear" ] = {
+		[ " Fear" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Freeze" ] = {
+		[ "Freeze" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1098,7 +1250,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Ravaged Cadaver" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1106,7 +1259,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Razzashi Adder" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1114,7 +1268,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Razzashi Serpent" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1122,7 +1277,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Rockwing Screecher" ] = {
-		[ "Gargoyle Strike" ] = {
+		[ "Gargoyle Strike" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1130,7 +1286,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Sand Skitterer" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1138,7 +1295,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scarlet Warder" ] = {
-		[ "Holy Light" ] = {
+		[ "Holy Light" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1146,7 +1304,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scarlet Cavalier" ] = {
-		[ "Holy Light" ] = {
+		[ "Holy Light" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1154,7 +1313,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scarlet Paladin" ] = {
-		[ "Holy Light" ] = {
+		[ "Holy Light" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1162,7 +1322,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scarshield Acolyte" ] = {
-		[ "Heal" ] = {
+		[ "Heal" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1170,7 +1331,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scarshield Legionnaire" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1178,7 +1340,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scarshield Raider" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1186,7 +1349,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scarshield Spellbinder" ] = {
-		[ "Arcane Bolt" ] = {
+		[ "Arcane Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1194,7 +1358,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scarshield Warlock" ] = {
-		[ "Scarshield Portal" ] = {
+		[ "Scarshield Portal" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1202,13 +1367,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Scholomance Acolyte" ] = {
-		[ "Cripple" ] = {
+		[ "Cripple" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Mind Flay" ] = {
+		[ "Mind Flay" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1216,7 +1383,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scholomance Adept" ] = {
-		[ "Frostbolt" ] = {
+		[ "Frostbolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1224,7 +1392,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scholomance Dark Summoner" ] = {
-		[ "Summon Risen Lackey" ] = {
+		[ "Summon Risen Lackey" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1232,7 +1401,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scholomance Necrolyte" ] = {
-		[ "Shadow Bolt" ] = {
+		[ "Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1240,7 +1410,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scholomance Necromancer" ] = {
-		[ "Shadow Bolt Volley" ] = {
+		[ "Shadow Bolt Volley" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1248,13 +1419,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Scholomance Neophyte" ] = {
-		[ "Mind Flay" ] = {
+		[ "Mind Flay" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ " Shadow Bolt" ] = {
+		[ " Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1262,13 +1435,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Scholomance Occultist" ] = {
-		[ "Mind Flay" ] = {
+		[ "Mind Flay" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ " Shadow Bolt" ] = {
+		[ " Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1276,7 +1451,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Scratchy" ] = {
-		[ "Regrowth" ] = {
+		[ "Regrowth" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1284,7 +1460,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Shazzrah" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1292,13 +1469,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Shrieking Banshee" ] = {
-		[ "Banshee Wail" ] = {
+		[ "Banshee Wail" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "placeholder" ] = {
+		[ "placeholder" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1306,7 +1485,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Skeletal Berserker" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1314,19 +1494,22 @@ VGI_Spells = {
 			},
 	},
 	[ "Skeletal Guardian" ] = {
-		[ "Frostbolt" ] = {
+		[ "Frostbolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Shadow Bolt" ] = {
+		[ "Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ " Arcane Explosion" ] = {
+		[ " Arcane Explosion" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1334,7 +1517,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Sludge Belcher" ] = {
-		[ "Disease Buffet" ] = {
+		[ "Disease Buffet" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1342,7 +1526,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Smolderthorn Mystic" ] = {
-		[ "Chain Lightning" ] = {
+		[ "Chain Lightning" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1350,7 +1535,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Smolderthorn Seer" ] = {
-		[ "Healing Wave" ] = {
+		[ "Healing Wave" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1358,7 +1544,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Smolderthorn Shadow Priest" ] = {
-		[ "Mana Burn" ] = {
+		[ "Mana Burn" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1366,7 +1553,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Spiked Stegodon" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1374,7 +1562,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Spirestone Enforcer" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1382,7 +1571,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Spirestone Mystic" ] = {
-		[ "Chain Lightning" ] = {
+		[ "Chain Lightning" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1390,7 +1580,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Spirestone Ogre Magus" ] = {
-		[ "Arcane Bolt" ] = {
+		[ "Arcane Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1398,7 +1589,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Stegodon" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1406,7 +1598,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Stitched Spewer" ] = {
-		[ "Slime Bolt" ] = {
+		[ "Slime Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1414,7 +1607,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Stonelash Pincer" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1422,7 +1616,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Stonelash Scorpid" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1430,7 +1625,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Sulfuron Harbinger" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1438,19 +1634,22 @@ VGI_Spells = {
 			},
 	},
 	[ "The Prophet Skeram" ] = {
-		[ "Arcane Explosion" ] = {
+		[ "Arcane Explosion" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Earth Shock" ] = {
+		[ "Earth Shock" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "placeholder" ] = {
+		[ "placeholder" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1458,7 +1657,8 @@ VGI_Spells = {
 			},
 	},
 	[ "The Ravenian" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1466,7 +1666,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Thunderstomp Stegodon" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1474,7 +1675,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Thuzadin Necromancer" ] = {
-		[ "Soul Tap" ] = {
+		[ "Soul Tap" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1482,19 +1684,22 @@ VGI_Spells = {
 			},
 	},
 	[ "Thuzadin Shadowcaster" ] = {
-		[ "Shadow Bolt" ] = {
+		[ "Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ " Cripple" ] = {
+		[ " Cripple" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Piercing Shadow" ] = {
+		[ "Piercing Shadow" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1502,7 +1707,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Unliving Resident" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1510,7 +1716,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Vectus" ] = {
-		[ "Flamestrike" ] = {
+		[ "Flamestrike" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1518,7 +1725,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Venom Belcher" ] = {
-		[ "Venom Spit" ] = {
+		[ "Venom Spit" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1526,7 +1734,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Vilebranch Soothsayer" ] = {
-		[ "Healing Wave" ] = {
+		[ "Healing Wave" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1534,7 +1743,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Vilebranch Witch Doctor" ] = {
-		[ "Healing Wave" ] = {
+		[ "Healing Wave" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1542,7 +1752,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Vile Ooze" ] = {
-		[ "Poison Bolt" ] = {
+		[ "Poison Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1550,19 +1761,22 @@ VGI_Spells = {
 			},
 	},
 	[ "Voodoo Slave" ] = {
-		[ "Rain of Fire" ] = {
+		[ "Rain of Fire" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Shadow Bolt" ] = {
+		[ "Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Inferno" ] = {
+		[ "Inferno" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1570,7 +1784,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Wailing Banshee" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1578,7 +1793,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Warpwood Tangler" ] = {
-		[ "Lightning Bolt" ] = {
+		[ "Lightning Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1586,7 +1802,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Warpwood Treant" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1594,7 +1811,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Wildspawn Betrayer" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1602,7 +1820,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Wildspawn Felsworn" ] = {
-		[ "Shadow Bolt" ] = {
+		[ "Shadow Bolt" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1610,13 +1829,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Wildspawn Hellcaller" ] = {
-		[ "Fireball" ] = {
+		[ "Fireball" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Rain of Fire" ] = {
+		[ "Rain of Fire" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1624,7 +1845,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Wildspawn Satyr" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1632,7 +1854,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Wildspawn Trickster" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1640,7 +1863,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Wildspawn Shadowstalker" ] = {
-		[ "Slowing Poison" ] = {
+		[ "Slowing Poison" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1648,7 +1872,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Winterfall Den Watcher" ] = {
-		[ "Healing Touch" ] = {
+		[ "Healing Touch" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1656,7 +1881,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Winterfall Shaman" ] = {
-		[ "Healing Touch" ] = {
+		[ "Healing Touch" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1664,7 +1890,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Winterspring Screecher" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1672,7 +1899,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Zealot Lor'Khan" ] = {
-		[ "Great Heal" ] = {
+		[ "Great Heal" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1680,13 +1908,15 @@ VGI_Spells = {
 			},
 	},
 	[ "Zevrim Thornhoof" ] = {
-		[ "Intense Pain" ] = {
+		[ "Intense Pain" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
 			isChanneled = "false",
 			},
-		[ "Sacrifice" ] = {
+		[ "Sacrifice" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",
@@ -1694,7 +1924,8 @@ VGI_Spells = {
 			},
 	},
 	[ "Zulian Panther" ] = {
-		[ "" ] = {
+		[ "" ] = {
+
 			duration = 2,
 			icon = "",
 			requiresLossOfControl = "false",

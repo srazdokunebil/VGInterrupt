@@ -137,11 +137,14 @@ function VGI_Interrupt(unitName, spellName)
 		_, _, isZerkerStance = GetShapeshiftFormInfo(3);
 
 		if ( isBattleStance and hasShield ) then
-			CastSpellByName( "Shield Bash" );
+			--CastSpellByName( "Shield Bash" );
+			vr.war.ShieldBashSmartCast("VGI", "target", true)
 		elseif ( isDefStance and hasShield ) then
-			CastSpellByName( "Shield Bash" );
+			--CastSpellByName( "Shield Bash" );
+			vr.war.ShieldBashSmartCast("VGI", "target", true)
 		elseif ( isZerkerStance ) then
-			CastSpellByName( "Pummel" );
+			--CastSpellByName( "Pummel" );
+			vr.war.PummelSmartCast("VGI", "target", true)
 		else
 			--CastSpellByName( "Berserker Stance" );
 		end
@@ -283,7 +286,7 @@ function VGI_OnEvent()
 						else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
 
 						if GOg("AnnounceActions") then
-							vr.log.Say("Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.log.Report("VGIInterrupt", "Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
 							vr.log.Log("Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
 						else
 							vr.log.Log("Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
@@ -301,7 +304,7 @@ function VGI_OnEvent()
 						else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
 
 						if GOg("AnnounceActions") then
-							vr.log.Say("Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.log.Report("VGIInterrupt", "Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
 							vr.log.Log("Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
 						else
 							vr.log.Log("Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
@@ -311,14 +314,14 @@ function VGI_OnEvent()
 						SendChatMessage( "Shield Bash FAILED! Someone else interrupt!", "SAY" );
 					end
 
-				elseif ( string.find( arg1, VGI_PATTERN_COUNTERSPELL_SUCCESS ) and string.find( "Mage", UnitClass('player') ) ) then
+				elseif ( string.find( arg1, VGI_PATTERN_COUNTERSPELL_SUCCESS ) and (UnitClass('player') == "Mage") ) then
 
 						-- Counterspell was successful.UnitClass('player')
 						if ( GetNumRaidMembers() == 0 and GetNumPartyMembers() == 0 ) then handleSpellEnd( targetRaidIconIndex, targetName );
 						else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
 
 						if GOg("AnnounceActions") then
-							vr.log.Say("Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.log.Report("VGIInterrupt", "Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
 							vr.log.Log("Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
 						else
 							vr.log.Log("Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
@@ -332,7 +335,7 @@ function VGI_OnEvent()
 						else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
 
 						if GOg("AnnounceActions") then
-							vr.log.Say("Earth Shock interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.log.Report("VGIInterrupt", "Earth Shock interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
 							vr.log.Log("Earth Shock interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
 						else
 							vr.log.Log("Earth Shock interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
