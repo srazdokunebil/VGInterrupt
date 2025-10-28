@@ -154,13 +154,16 @@ function VGI_Interrupt(unitName, spellName)
 		SpellStopCasting()
 		CastSpellByName( "Counterspell" );
 	elseif ( playerClass == "SHAMAN" ) then
-		SpellStopCasting()
-		CastSpellByName( "Earth Shock" );
+		if vr.api.IsSpellReady("Earth Shock") then
+			SpellStopCasting()
+			vr.shm.EarthShockSmartCast(vr.api.GetSpellMaxRank("Earth Shock"), "VGI", "target", true)
+		end
 	elseif ( playerClass == "PALADIN" ) then
 		if vr.api.IsSpellReady("Hammer of Justice") then
 			SpellStopCasting()
 			--print("IMMA CHARGIN MAH LAZOR")
 			vr.pal.HammerOfJusticeSmartCast(vr.api.GetSpellMaxRank("Hammer of Justice"), "VGI", "target", true)
+			--CastSpellByName( "Hammer of Justice" )
 		end
 
 	end
@@ -263,16 +266,25 @@ function VGI_OnEvent()
 				if ( string.find( arg1, VGI_PATTERN_KICK ) ) then
 					if ( string.find( arg1, VGI_PATTERN_KICK_SUCCESS ) ) then
 
+						if GOg("AnnounceActions") then
+							vr.log.Report("VGIInterrupt", "Kick interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.log.Log("Kick interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.cast.Reset("[VGInterrupt] <- ")
+						else
+							vr.log.Log("Kick interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.cast.Reset("[VGInterrupt] <- ")
+						end
+
 						-- Kick was successful.
 						if ( GetNumRaidMembers() == 0 and GetNumPartyMembers() == 0 ) then handleSpellEnd( targetRaidIconIndex, targetName );
 						else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
 
-						if GOg("AnnounceActions") then
-							vr.log.Say("Kick interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-							vr.log.Log("Kick interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-						else
-							vr.log.Log("Kick interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-						end
+						-- if GOg("AnnounceActions") then
+						-- 	vr.log.Say("Kick interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- 	vr.log.Log("Kick interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- else
+						-- 	vr.log.Log("Kick interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- end
 					else
 						-- Kick failed.
 						SendChatMessage( "Kick FAILED! Someone else interrupt!", "SAY" );
@@ -281,16 +293,25 @@ function VGI_OnEvent()
 				elseif ( string.find( arg1, VGI_PATTERN_PUMMEL ) ) then
 					if ( string.find( arg1, VGI_PATTERN_PUMMEL_SUCCESS ) ) then
 
+						if GOg("AnnounceActions") then
+							vr.log.Report("VGIInterrupt", "Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.log.Log("Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.cast.Reset("[VGInterrupt] <- ")
+						else
+							vr.log.Log("Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.cast.Reset("[VGInterrupt] <- ")
+						end
+
 						-- Pummel was successful.
 						if ( GetNumRaidMembers() == 0 and GetNumPartyMembers() == 0 ) then handleSpellEnd( targetRaidIconIndex, targetName );
 						else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
 
-						if GOg("AnnounceActions") then
-							vr.log.Report("VGIInterrupt", "Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-							vr.log.Log("Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-						else
-							vr.log.Log("Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-						end
+						-- if GOg("AnnounceActions") then
+						-- 	vr.log.Report("VGIInterrupt", "Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- 	vr.log.Log("Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- else
+						-- 	vr.log.Log("Pummel interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- end
 					else
 						-- Pummel failed.
 						SendChatMessage( "Pummel FAILED! Someone else interrupt!", "SAY" );
@@ -299,16 +320,25 @@ function VGI_OnEvent()
 				elseif ( string.find( arg1, VGI_PATTERN_SHIELDBASH ) ) then
 					if ( string.find( arg1, VGI_PATTERN_SHIELDBASH_SUCCESS ) ) then
 
+						if GOg("AnnounceActions") then
+							vr.log.Report("VGIInterrupt", "Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.log.Log("Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.cast.Reset("[VGInterrupt] <- ")
+						else
+							vr.log.Log("Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.cast.Reset("[VGInterrupt] <- ")
+						end
+
 						-- Shield Bash was successful.
 						if ( GetNumRaidMembers() == 0 and GetNumPartyMembers() == 0 ) then handleSpellEnd( targetRaidIconIndex, targetName );
 						else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
 
-						if GOg("AnnounceActions") then
-							vr.log.Report("VGIInterrupt", "Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-							vr.log.Log("Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-						else
-							vr.log.Log("Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-						end
+						-- if GOg("AnnounceActions") then
+						-- 	vr.log.Report("VGIInterrupt", "Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- 	vr.log.Log("Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- else
+						-- 	vr.log.Log("Shield Bash interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- end
 					else 
 						-- Shield Bash failed.
 						SendChatMessage( "Shield Bash FAILED! Someone else interrupt!", "SAY" );
@@ -316,30 +346,42 @@ function VGI_OnEvent()
 
 				elseif ( string.find( arg1, VGI_PATTERN_COUNTERSPELL_SUCCESS ) and (UnitClass('player') == "Mage") ) then
 
+						if GOg("AnnounceActions") then
+							vr.log.Report("VGIInterrupt", "Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.log.Log("Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.cast.Reset("[VGInterrupt] <- ")
+						else
+							vr.log.Log("Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.cast.Reset("[VGInterrupt] <- ")
+						end
+
 						-- Counterspell was successful.UnitClass('player')
 						if ( GetNumRaidMembers() == 0 and GetNumPartyMembers() == 0 ) then handleSpellEnd( targetRaidIconIndex, targetName );
 						else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
 
-						if GOg("AnnounceActions") then
-							vr.log.Report("VGIInterrupt", "Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-							vr.log.Log("Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-						else
-							vr.log.Log("Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-						end
+						-- if GOg("AnnounceActions") then
+						-- 	vr.log.Report("VGIInterrupt", "Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- 	vr.log.Log("Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- else
+						-- 	vr.log.Log("Counterspell interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						-- end
 
 				elseif ( string.find( arg1, VGI_PATTERN_EARTHSHOCK ) ) then
 					if ( string.find( arg1, VGI_PATTERN_EARTHSHOCK_SUCCESS ) ) then
+
+						if GOg("AnnounceActions") then
+							vr.log.Report("VGIInterrupt", "Earth Shock interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.log.Log("Earth Shock interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.cast.Reset("[VGInterrupt] <- ")
+						else
+							vr.log.Log("Earth Shock interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+							vr.cast.Reset("[VGInterrupt] <- ")
+						end
 
 						-- Earth Shock was successful.
 						if ( GetNumRaidMembers() == 0 and GetNumPartyMembers() == 0 ) then handleSpellEnd( targetRaidIconIndex, targetName );
 						else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
 
-						if GOg("AnnounceActions") then
-							vr.log.Report("VGIInterrupt", "Earth Shock interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-							vr.log.Log("Earth Shock interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-						else
-							vr.log.Log("Earth Shock interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
-						end
 					else
 						-- Shield Bash failed.
 						SendChatMessage( "Earth Shock FAILED! Someone else interrupt!", "SAY" );
@@ -361,18 +403,20 @@ function VGI_OnEvent()
 			if true then
 				if ( string.find( arg1, VGI_PATTERN_HAMMEROFJUSTICE_SUCCESS ) ) then
 
-					-- Hammer of Justice was successful.
-					if ( GetNumRaidMembers() == 0 and GetNumPartyMembers() == 0 ) then handleSpellEnd( targetRaidIconIndex, targetName );
-					else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
-
-					if GOg("AnnounceActions") 
+					if GOg("AnnounceActions")
 					and vr.pal.lastHammerOfJusticeCast
 					then
 						vr.log.Say("Hammer of Justice interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
 						vr.log.Log("Hammer of Justice interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						vr.cast.Reset("[VGInterrupt] <- ")
 					else
 						vr.log.Log("Hammer of Justice interrupted " .. targetName .. " from casting " .. VGI_EnemyCastBar.spellName .. "!")
+						vr.cast.Reset("[VGInterrupt] <- ")
 					end
+
+					-- Hammer of Justice was successful.
+					if ( GetNumRaidMembers() == 0 and GetNumPartyMembers() == 0 ) then handleSpellEnd( targetRaidIconIndex, targetName );
+					else SendAddonMessage( "VGI_Interrupted", targetRaidIconIndex.."!"..targetName, "RAID" ); end
 
 				end
 			end
@@ -583,6 +627,12 @@ function VGI_OnEvent()
 end
 
 function handleSpellCast( targetRaidIconIndex, targetName, spellName )
+	-- if spellName then
+	-- 	print("[handleSpellCast] spellName:"..tostring(spellName))
+	-- else
+	-- 	print("[handleSpellCast] spellName is mangled")
+	-- end
+
 	SetRaidTargetIconTexture( VGI_EnemyCastBar.targetIcon.texture, targetRaidIconIndex );
 	VGI_EnemyCastBar.targetIcon.texture:Show();
 	VGI_EnemyCastBar.caster = targetName;
